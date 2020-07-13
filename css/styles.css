@@ -9,10 +9,17 @@
         background-color: var(--bcg-color);
         color: var(--main-color);
     }
-
-    .logo{color: var(--accent-color);}
-    
+    /* лого */
+    .logo{color: var(--title-text-color);}
+    .logo span {color: var(--accent-color);}
+    /* навигация */
     .site-nav .link {color: var(--title-text-color)}
     .site-nav .link:hover, .site-nav .link:focus  {color: var(--accent-color)}
+    /* контакты*/
     .contact .link {color: var(--main-color) }
     .contact .link:hover, .contact .link:focus  {color: var(--accent-color)}
+    /* герой */
+    .hero
+    {background-color: rgb(0, 0, 0);}
+    .hero .hero-tittle {color: var(--bcg-color);}
+    .hero .hero-link {background-color: var(--accent-color); color: var(--bcg-color);}
