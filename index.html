@@ -10,15 +10,15 @@
   <body>
     <header>
       <nav> 
-        <a href="./index.html"class="logo"> <span>Web</span> Studio </a>
-        <ul class="site-nav">
-          <li><a href="" class="link">Студия</a></li>
+        <a href="./index.html" class="logo"> <span>Web</span> Studio </a>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link сurrent">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
      
-      <ul class="contact">
+      <ul class="contact list">
         <li>
           <a href="mailto:info@devstudio.com" class="link">
             <img src="./img/mailto.svg" alt="Envelope" />
@@ -36,39 +36,39 @@
     <!--Заказ услуги-->
     <section class="hero">
       <h1 class="hero-tittle">Эффективные решения для вашего бизнеса</h1>
-      <a href="" class="hero-link">Заказать услугу</a>
+      <a href="" class="button">Заказать услугу</a>
     </section>
     <!--Скилы-->
     <section>
-      <ul>
-        <li>
+      <ul class="skills list">
+        <li class="skills-item">
           <img src="./img/attention.svg" alt="attention" width="70" />
-          <h2>Внимание к деталям</h2>
+          <h2 class="skills-title">Внимание к деталям</h2>
           <p>
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
         </li>
-        <li>
+        <li class="skills-item">
           <img src="./img/TIme.svg" alt="time" width="70" />
-          <h2>Пунктуальность</h2>
+          <h2 class="skills-title">Пунктуальность</h2>
           <p>
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
           </p>
         </li>
-        <li>
+        <li class="skills-item">
           <img src="./img/Plan.svg" alt="Plan" width="70" />
-          <h2>Планирование</h2>
+          <h2 class="skills-title">Планирование</h2>
           <p>
             Равным образом консультация с широким активом в значительной степени
             обуславливает.
           </p>
         </li>
 
-        <li>
+        <li class="skills-item">
           <img src="./img/modernTech.svg" alt="time" width="70" />
-          <h2>Современные технологии</h2>
+          <h2 class="skills-title">Современные технологии</h2>
           <p>
             Значимость этих проблем настолько очевидна, что реализация плановых
             заданий.
@@ -77,38 +77,38 @@
       </ul>
     </section>
     <!--Работы-->
-    <section>
-      <h2>Чем мы занимаемся</h2>
-      <ul>
+    <section class="work">
+      <h2 class="work-title">Чем мы занимаемся</h2>
+      <ul class="list work-item">
         <li>
           <a href=""
             ><img src="./img/dapp.jpg" alt="dapp" width="370" />
-            <p>Десктопные приложения</p></a
-          >
-        </li>
-        <li>
-          <a href=""
-            ><img src="./img/mapp.jpg" alt="mapp" width="370" />
-            <p>Мобильные приложения</p>
+            <h3 class="work-type">Десктопные приложения</h3>
           </a>
         </li>
         <li>
           <a href=""
-            ><img src="./img/diz.jpg" alt="dapp" width="370" />
-            <p>Дизайнерские решения</p>
+            ><img src="./img/mapp.jpg" alt="mapp" width="370" />
+            <h3 class="work-type">Мобильные приложения</h3>
+          </a>
+        </li>
+        <li>
+          <a href=""
+            ><img src="./img/diz.jpg" alt="diz" width="370" />
+            <h3 class="work-type">Дизайнерские решения</h3>
           </a>
         </li>
       </ul>
     </section>
     <!--Команда-->
-    <section>
-      <h2>Наша команда</h2>
-      <ul>
+    <section class="team">
+      <h2 class="team-title">Наша команда</h2>
+      <ul class="list">
         <li>
           <img src="./img/Nikolay.jpg" alt="Nikoly" width="270" height="260" />
           <h3>Николай Кучеренко</h3>
           <p>Product Designer</p>
-          <ul>
+          <ul class="list team-networks">
             <li>
               <a href=""
                 ><img src="./img/insta.svg" alt="Instagram" width="18"
@@ -131,7 +131,7 @@
           <img src="./img/Olga.jpg" alt="Olga" width="270" height="260" />
           <h3>Ольга Иванова</h3>
           <p>Frontend Developer</p>
-          <ul>
+          <ul class="list">
             <li>
               <a href=""
                 ><img src="./img/insta.svg" alt="Instagram" width="18"
@@ -154,7 +154,7 @@
           <img src="./img/Ivan.jpg" alt="Ivan" width="270" height="260" />
           <h3>Иван Николаев</h3>
           <p>UI Designer</p>
-          <ul>
+          <ul class="list">
             <li>
               <a href=""
                 ><img src="./img/insta.svg" alt="Instagram" width="18"
@@ -177,7 +177,7 @@
           <img src="./img/Andrey.jpg" alt="Andrey" width="270" height="260" />
           <h3>Андрей Шевченко</h3>
           <p>Marketing</p>
-          <ul>
+          <ul class="list">
             <li>
               <a href=""
                 ><img src="./img/insta.svg" alt="Instagram" width="18"
@@ -199,9 +199,9 @@
       </ul>
     </section>
     <!--Постоянные клиенты-->
-    <section>
-      <h2>Постоянные клиенты</h2>
-      <ul>
+    <section class="clients">
+      <h2 class="clients-title">Постоянные клиенты</h2>
+      <ul class="list clients-item">
         <li>
           <a href=""><img src="./img/client1.svg" alt="client1" /></a>
         </li>
@@ -223,14 +223,17 @@
       </ul>
     </section>
     <footer>
-      <a href=""> <span>Web</span> Studio </a>
+      <div class="location">
+        <a href="" class="logo-footer"> <span>Web</span> Studio </a>
            <address>
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="tel:+380991111111">+380991111111</a><br />
-        <a href="mailto:info@example.com">info@example.com</a>
+        <a href="tel:+380991111111" class="link contact">+380991111111</a><br />
+        <a href="mailto:info@example.com" class="link contact">info@example.com</a>
       </address>
+      </div>
+      
       <b>присоединяйтесь</b>
-      <ul>
+      <ul class="list">
         <li>
           <a href=""
             ><img src="./img/insta.svg" alt="Instagram" width="18"
@@ -246,7 +249,8 @@
           <a href=""><img src="./img/in.svg" alt="Facebook" width="18" /></a>
         </li>
       </ul>
-      <b>присоединяйтесь</b>
+      <b>Подпишитесь на рассылку</b>
+      <a href="" class="button"> Подписаться</a>
     </footer>
   </body>
 </html>
