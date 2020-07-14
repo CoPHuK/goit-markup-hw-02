@@ -79,9 +79,6 @@ footer span,
 b {
   color: var(--bcg-color);
 }
-.portfoliolist h3 {
-  color: var(--title-text-color);
-}
 
 .worklist-button {
   background-color: var(--wl-button-color);
@@ -90,5 +87,15 @@ b {
 .worklist-button:hover,
 .worklist-button:focus {
   background-color: var(--accent-color);
+  color: var(--bcg-color);
+}
+.pfitem {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+.work-type {
+  color: var(--main-color);
+}
+.pfitem p {
   color: var(--bcg-color);
 }
